@@ -1,0 +1,123 @@
+.footer__inner {
+    background-color: white;
+    padding-top: 76px;
+    padding-bottom: 30px;
+}
+
+.footer__list {
+    display: flex;
+    gap: 25px;
+    text-align: center;
+}
+
+.footer__title {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 65px;
+}
+
+.footer__link {
+    font-size: 22px;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer__link:hover {
+    opacity: 0.5;
+    transition: 0.25s;
+}
+
+.footer__studio-name {
+    font-size: 20px;
+    line-height: 27px;
+    opacity: 0.5;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__list__name {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1199px) {
+
+    .footer__inner {
+        padding-top: 51px;
+        padding-bottom: 20px;
+    }
+
+    .footer__title {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 40px;
+    }
+    
+    .footer__link {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .footer__list {
+        gap: 13px;
+    }
+    
+    .footer__studio-name {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .footer__title {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer__link {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+
+    .footer__studio-name {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .footer__list__name {
+        display: flex;
+        justify-content: unset;
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .footer__list {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: row;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+
+    .footer__inner {
+        padding-top: 47px;
+        padding-bottom: 34px;
+    }
+
+    .footer__wrapper {
+        display: unset;
+        justify-content: unset;
+        flex-direction: row;
+    }
+}

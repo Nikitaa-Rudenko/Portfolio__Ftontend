@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudenko Frontend</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/import.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="shortcut icon" href="./resources//favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./resources//favicon.ico" type="image/x-icon">
+</head>
+<body>
+   <header class="header">
+        <div class="header__wrapper">
+            <h1 class="header__logo-link"> 
+                <a class="header__title__logo" href="https://nikitaa-rudenko.github.io/Portfolio/">RUDENKO</a>
+            </h1>
+            <nav>
+                <ul class="header__nav__list">
+                    <li>
+                        <a class="header__nav__link" href="#projects">портфолио</a>
+                    </li>
+                    <li>
+                        <a class="header__nav__link" href="#skills">компетенции</a>
+                    </li>
+                    <li>
+                        <a class="header__nav__link" href="#services">УСЛУГИ</a>
+                    </li>
+                    <li>
+                        <a class="header__nav__link" href="#contacts">КОНТАКТЫ</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="js-burger-btn burger-btn"></div>
+            <div class="js-burger burger">
+                <div class="burger__content">
+                    <div class="burger-logo">
+                        <h1 class="header__logo-link"> 
+                            <a class="header__title__logo" href="https://nikitaa-rudenko.github.io/Portfolio/">RUDENKO</a>
+                        </h1>
+                    </div>
+                    <nav class="burger-nav">
+                        <ul class="burger-nav-list">
+                            <li>
+                                <a class="burger__nav-item" href="#projects">портфолио</a>
+                            </li>
+                            <li>
+                                <a class="burger__nav-item" href="#skills">компетенции</a>
+                            </li>
+                            <li>
+                                <a class="burger__nav-item" href="#services">УСЛУГИ</a>
+                            </li>
+                            <li>
+                                <a class="burger__nav-item" href="#contacts">КОНТАКТЫ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <h3 class="burger__contacts__title">для связи:</h3>
+                    <div class="burger__contacts-wrapper js-burger__content">
+                        <a class="burger__contacts__phone" href="tel:+7 977  882-13-44">+7 977  882-13-44</a>
+                        <a class="burger__contacts__telegram" href="https://web.telegram.org/k/#@nikitaa_rudenko" target="_ blank">@nikitaa_</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul class="header__intro__wrapper">
+                <li>
+                    <h2 class="header__title">Привет, меня зовут Никита — я front-end разработчик и дизайнер веб-сайтов</h2>
+                </li>
+                <li>
+                    <p class="header__subtitle">Разрабатываю имиджевые сайты для бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов</p>
+                </li>
+            </ul> 
+        </div>
+   </header>
+   <main>
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="title__projects">Самые свежие проекты</h2>
+                <div class="gallery__slides">
+                    <ul class="projects__list">
+                        <li class="gallery__slide gallery__slide_active">
+                            <a class="project__link" href="https://yanixworld.com/">
+                                <img class="project__img" src="./resources/Yanix-World.png" alt="yanixworld.com">
+                                <p class="project__title">Yanix World</p>
+                                <p class="project__subtitle">дизайн,верстка,настройка</p>
+                                <p class="project__label">Медийная личность</p>
+                            </a>
+                        </li>
+                        <li class="gallery__slide">
+                            <a class="project__link" href="https://fp-realtor.com/">
+                                <img class="project__img" src="./resources/FP-Realtor.png" alt="fp-realtor.com">
+                                <p class="project__title">FP-Realtor</p>
+                                <p class="project__subtitle">дизайн,верстка,настройка</p>
+                                <p class="project__label">Недвижимость</p>
+                            </a>
+                        </li>
+                        <li class="gallery__slide">
+                            <a class="project__link" href="https://akamu.ru/">
+                                <img class="project__img" src="./resources/Akamu.png" alt="akamu.ru">
+                                <p class="project__title">Akamu</p>
+                                <p class="project__subtitle">верстка,настройка</p>
+                                <p class="project__label">Медитация</p>
+                            </a>
+                        </li>
+                        <li class="gallery__slide">
+                            <a class="project__link" href="https://kupolgallery.ru/">
+                                <img class="project__img" src="./resources/Kupol-Gallery.png" alt="kupolgallery.ru">
+                                <p class="project__title">Kupol Gallery</p>
+                                <p class="project__subtitle">дизайн,верстка,настройка</p>
+                                <p class="project__label">Искусство</p>
+                            </a>
+                        </li>
+                        <li class="gallery__slide">
+                            <a class="project__link" href="https://themichelangelo.it/">
+                                <img class="project__img" src="./resources/MICHELANGELO.png" alt="https://themichelangelo.it/">
+                                <p class="project__title">Michelangelo</p>
+                                <p class="project__subtitle">верстка,настройка</p>
+                                <p class="project__label">Парфюмерия</p>
+                            </a>
+                        </li>
+                        <li class="gallery__slide">
+                            <a class="project__link" href="http://capricesfestival.com.xsph.ru/">
+                                <img class="project__img" src="./resources/CAPRICES_SWITZERLAND.png" alt="http://capricesfestival.com.xsph.ru/">
+                                <p class="project__title">Caprices Switzerland</p>
+                                <p class="project__subtitle">верстка,настройка</p>
+                                <p class="project__label">Фестивали</p>
+                            </a>
+                        </li>
+                        <li class="gallery__slide">
+                            <a class="project__link" href="https://insider-properties.com/">
+                                <img class="project__img" src="./resources/insider-properties.png" alt="insider-properties.com">
+                                <p class="project__title">Insider Properties</p>
+                                <p class="project__subtitle">верстка,настройка</p>
+                                <p class="project__label">Недвижимость</p>
+                            </a>
+                        </li>
+                        <li class="gallery__slide">
+                            <a class="project__link" href="https://nikitaa-rudenko.github.io/AirPods/">
+                                <img class="project__img" src="./resources/nothing-store.png" alt="Nothing Store">
+                                <p class="project__title">Nothing Store</p>
+                                <p class="project__subtitle">разработка интерфейса,верстка</p>
+                                <p class="project__label">Презентация продукта</p>
+                            </a>
+                        </li>
+                        <li class="gallery__slide">
+                            <a class="project__link" href="http://astroni.world.xsph.ru/">
+                                <img class="project__img" src="./resources/Astroni-World.png" alt="astroni.world">
+                                <p class="project__title">Astroni World</p>
+                                <p class="project__subtitle">верстка,настройка</p>
+                                <p class="project__label">Парфюмерия</p>
+                            </a>
+                        </li>
+                        <li class="gallery__slide">
+                            <a class="project__link" href="https://nikitaa-rudenko.github.io/Metrika/">
+                                <img class="project__img" src="./resources/metrika.jpg" alt="Metrika">
+                                <p class="project__title">Metrica</p>
+                                <p class="project__subtitle">дизайн,верстка,настройка</p>
+                                <p class="project__label">Дизайн интерьера</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="gallery__controls-wrapper">
+                        <div class="gallery__controls">
+                            <div class="gallery__control-prev"></div>
+                            <div class="gallery__control-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="skills__title__intro">Мои компетенции</h2>
+                <ul class="skills__list">
+                    <li class="skills__wrapper">
+                        <h2 class="skills__title">HTML и CSS</h2>
+                        <p class="skills__subtitle">это основа фронтенд разработки. Умение создавать и правильно структурировать HTML-документы, а также применять стили к этим документам на CSS, является обязательным навыком для каждого фронтенд разработчика.</p>
+                    </li>
+                    <li class="skills__wrapper">
+                        <h2 class="skills__title">JavaScript</h2>
+                        <p class="skills__subtitle">это язык программирования, который используется для создания динамического и интерактивного пользовательского интерфейса. Хороший фронтенд разработчик должен быть знаком с основами JavaScript, включая работу с DOM-деревом, асинхронными запросами и манипуляцией данными на стороне клиента.</p>
+                    </li>
+                    <li class="skills__wrapper">
+                        <h2 class="skills__title">Работа с библиотеками и фреймворками</h2>
+                        <p class="skills__subtitle">фронтенд разработчики должны быть знакомы с различными библиотеками и фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения, адаптировать их под нужды проекта и расширять их функциональность, является очень важным навыком без которого ни один разработчик не может обойтись.</p>
+                    </li>
+                    <li class="skills__wrapper">
+                        <h2 class="skills__title">Адаптивная верстка для любых устройств</h2>
+                        <p class="skills__subtitle">Адаптивная вёрстка меняет дизайн страницы в зависимости от поведения пользователя, платформы, размера экрана и девайса. Является неотъемлемой частью современной веб-разработки. Она позволяет существенно экономить и не отрисовывать новый дизайн для каждого разрешения, а менять размеры и расположение отдельных элементов.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="services__title__intro">Помогаю реализовать широкий спектр задач</h2>
+                <ul class="services__list">
+                    <li>
+                        <picture>
+                            <source 
+                                media="(max-width: 767px)" 
+                                srcset="./resources/service__img__development-mobile.png"
+                            >
+                            <img 
+                                class="service__image" 
+                                src="./resources/service__img__development.png" 
+                                alt="development"
+                            >
+                        </picture>
+                        <div class="service__text-wrapper">
+                            <h2 class="service__title">Разработка сайта под ключ</h2>
+                            <p class="service__subtitle">Это создание дизайн веб-сайтов, созданный для удобства пользователя и решения бизнес-задач <br> Сайты должны быть понятными и удобными, ведь чем понятнее сайт, тем быстрее пользователь совершит целевое действие</p>
+                        </div>
+                    </li>
+                    <li>
+                        <picture>
+                            <source 
+                                media="(max-width: 767px)" 
+                                srcset="./resources/service__img__verstka-mobile.png"
+                            >
+                            <img 
+                                class="service__image" 
+                                src="./resources/service__img__verstka.png" 
+                                alt="verstka"
+                            >
+                        </picture>
+                        <div class="service__text-wrapper">
+                            <h2 class="service__title">Верстка сайтов</h2>
+                            <p class="service__subtitle">Это процесс создания HTML-документов и применения к ним стилей на CSS. Фронтенд разработчик может помочь создать привлекательный и удобный интерфейс для вашего сайта</p>
+                        </div>
+                    </li>
+                    <li>
+                        <picture>
+                            <source 
+                                media="(max-width: 767px)" 
+                                srcset="./resources/service__img__mobile-interface-mobile.png"
+                            >
+                            <img 
+                                class="service__image" 
+                                src="./resources/service__img__mobile-interface.png" 
+                                alt="mobile-interface"
+                            >
+                        </picture>
+                        <div class="service__text-wrapper">
+                            <h2 class="service__title">Разработка мобильного интерфейса</h2>
+                            <p class="service__subtitle">Это процесс создания интерактивных элементов на странице с помощью JavaScript. Фронтенд разработчик может помочь создать динамический и удобный пользовательский интерфейс для вашего сайта или приложения.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="contacts-wrapper">
+                    <h2 class="contacts__title">Для связи со мной заполните простую форму</h2>
+                    <input 
+                        class="contacts__input"
+                        type="text"
+                        name="name"
+                        placeholder="Имя Фамилия"
+                    >
+                    <input 
+                        class="contacts__input"
+                        type="email" 
+                        name="email" 
+                        placeholder="Электронная почта"
+                    >
+                    <button 
+                        class="contacts__btn btn">
+                        Отправить
+                    </button>
+                </div>
+            </div>
+        </section>
+   </main>
+   <footer>
+        <section class="footer__inner">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <h2 class="footer__title">Портфолио фротнтенд-разработчика Руденко Никиты</h2>
+                    <ul class="footer__list">
+                        <li> 
+                            <a 
+                                class="footer__link" 
+                                href="mailto:rudenko.n.e@icloud.com" 
+                                target="_blank">
+                                mail
+                            </a>
+                        </li>
+                        <li> 
+                            <a 
+                                class="footer__link" 
+                                href="https://t.me/nikitaa_rudenko" target="_blank">
+                                telegram
+                            </a>
+                        </li>
+                        <li> 
+                            <a 
+                                class="footer__link" 
+                                href="https://instagram.com/nikitaa_rudenko_?igshid=NTc4MTIwNjQ2YQ==" 
+                                target="_blank">
+                                instagram
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__list__name">
+                    <p class="footer__studio-name">
+                        Все права защищены. 2024
+                    </p>
+                    <p class="footer__studio-name">
+                        политика обработки данных
+                    </p>
+                </div>
+            </div>
+        </section>
+   </footer>
+   <script src="./js/burger.js"></script>
+   <script src="./js/gallery.js"></script>
+</body>
+</html>

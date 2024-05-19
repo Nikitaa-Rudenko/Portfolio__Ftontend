@@ -1,0 +1,122 @@
+.skills {
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+.skills__title__intro {
+    font-size: 55px;
+    line-height: 72px;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.skills__title {
+    font-size: 35px;
+    line-height: 46px;
+    color: #304ffe;
+    margin-bottom: 15px;
+}
+
+.skills__subtitle {
+    font-size: 22px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.skills__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.skills__wrapper {
+    width: calc(50% - 25px);
+    position: relative;
+    padding-top: 60px;
+}
+
+.skills__wrapper::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0px;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #304ffe;
+}
+
+.skills__wrapper:nth-child(1)::before {
+    background-image: url(../resources/label__html.png);
+}
+
+.skills__wrapper:nth-child(2)::before {
+    background-image: url(../resources/label__js.png);
+}
+
+.skills__wrapper:nth-child(3)::before {
+    background-image: url(../resources/label__framework.png);
+}
+
+.skills__wrapper:nth-child(4)::before {
+    background-image: url(../resources/label__adaptiv.png);
+}
+
+@media (max-width: 1199px) {
+    .skills__title__intro {
+        font-size: 45px;
+        line-height: 58px;
+        margin-bottom: 60px;
+    }
+    
+    .skills__title {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 13px;
+    }
+    
+    .skills__subtitle {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .skills__wrapper::before {
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+        top: 5px
+    }
+
+    .skills__list {
+        gap: 40px;
+    }
+    
+    .skills__wrapper {
+        width: calc(50% - 20px);
+        padding-top: 46px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .skills {
+        margin-bottom: 100px;
+    }
+
+    .skills__list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 60px;
+    }
+    
+    .skills__wrapper {
+        width: 100%;
+    }
+    .skills__title__intro {
+        font-size: 40px;
+        line-height: 30px;
+    }
+    
+}

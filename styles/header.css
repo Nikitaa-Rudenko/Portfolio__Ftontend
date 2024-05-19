@@ -1,0 +1,120 @@
+.header {
+    background-image: url(../resources/heder__main-picture.png);
+    background-repeat: no-repeat;
+    background-position: 55% 65%;
+    background-size: cover;
+    height: 850px;
+    padding: 33px 15px 0px;
+    display: block;
+}
+
+.header__logo-link {
+    font-weight: 700;
+    font-size: 31px;
+    letter-spacing: -0.06em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__nav__list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__nav__link {
+    color: rgb(255, 255, 255);
+    line-height: 42px;
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.header__nav__link:hover {
+    opacity: 0.5;
+    transition: 0.25s;
+}
+
+.header__title__logo {
+    text-decoration: none;
+    color: #304ffe;
+}
+
+.header__intro__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: end;
+}
+
+.header__title {
+    text-align: center;
+    margin-top: 300px;
+    color: white;
+    font-size: 2.4em;
+    line-height: 64px;
+    padding: 0px 20px 0px 20px;
+}
+
+.header__subtitle {
+    color: white;
+    max-width: 352px;
+    font-size: 19px;
+    line-height: 26px;
+    margin-top: 95px;
+    border: 3px solid rgba(255, 255, 255, 0.344);
+    padding: 10px 1px 10px 10px;
+}
+
+@media (max-width: 1199px) {
+
+    .header__nav__list {
+        display: none;
+    }
+
+
+    .header__logo-link {
+        font-size: 29px;
+    }
+
+    .header__subtitle {
+        display: none;
+    }
+
+    .header__title {
+        margin-top: 555px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .header__title {
+        font-size: 2em;
+        line-height: 48px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .header__title {
+        font-size: 30px;
+        line-height: 45px;
+        max-width: 400px;
+        min-width: 0px;
+        padding: 0px;
+        margin-top: 300px;
+    }
+
+    .header {
+        background-image: url(../resources/heder__main-picture__mobile.jpeg);
+    }
+
+    .header__subtitle {
+        display: block;
+    }
+}
